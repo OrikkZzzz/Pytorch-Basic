@@ -1,0 +1,40 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+
+#Others
+.vscode/
+*.log
+
+#images
+datasetv2/
+
+dataset/
+images/
+
+# tensorboard
+logs/
+logs_maxpool/
+dataloader/
+*.tfevents.*
+
+# ---------- 模型权重与导出 ----------
+*.pth
+*.pt
+*.onnx
+*.ckpt
+checkpoints/
+
+# ---------- Notebook / 编辑器 / 系统 ----------
+.ipynb_checkpoints/
+.idea/
+.DS_Store
+Thumbs.db
+
