@@ -10,3 +10,5 @@ model1 = torch.load("vgg16_meth1.pth")
 torch.save(vgg16.state_dict(), "vgg16_meth2.pth")  # 保存为字典形式
 model2 = torchvision.models.vgg16()
 model2.load_state_dict(torch.load("vgg16_meth2.pth"))
+
+# torchvision.models.AlexNet
